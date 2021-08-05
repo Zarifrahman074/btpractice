@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <!-- CSS Links -->
+
+
+
+    <title></title>
+  </head>
+  <body>
+    <h2>Demo Form</h2>
+    <div class="bod">
+    <div class="container">
+      <div class="para1">
+      <h3>Personal Informations:</h3>
+      <div class="mb-3">
+      <form  class="needs-validation" novalidate>
+        <div class="row g-3">
+          <div class="col">
+            <label for="f_name" class="form-label">Enter First Name</label>
+          <div class="form-floating">
+            <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="First name" required>
+            <div class="valid-feedback">
+            Looks good!
+            </div>
+            <div class="invalid-feedback">
+            Please choose a username.
+            </div>
+            <label>First Name</label>
+          </div>
+          </div>
+          </div>
+          <div class="col">
+            <label for="l_name" class="form-label">Enter Last Name</label>
+          <div class="form-floating">
+            <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="Last name" required>
+             <div class="valid-feedback">
+            Looks good!
+            </div>
+            <div class="invalid-feedback">
+            Please choose a username.
+            </div>
+            <label>Last Name</label>
+          </div>
+          </div>
+        </div>
+
+        <div class="mt-3">
+          <label class="form-label">Parents Details</label>
+          <div class="input-group">
+            <span class="input-group-text">Father Name</span>
+            <input type="text" class="form-control" name="">
+             <div class="valid-feedback">
+            Looks good!
+            </div>
+            <div class="invalid-feedback">
+            Please choose a username.
+            </div>
+            <span class="input-group-text">Occupation</span>
+            <input type="text" class="form-control" name="">
+             <div class="valid-feedback">
+            Looks good!
+            </div>
+            <div class="invalid-feedback">
+            Please choose a username.
+            </div>
+          </div>
+          <div class="input-group mt-2">
+            <span class="input-group-text">Mother Name</span>
+            <input type="text" class="form-control" name="">
+             <div class="valid-feedback">
+            Looks good!
+            </div>
+            <div class="invalid-feedback">
+            Please choose a username.
+            </div>
+            <span class="input-group-text">Occupation</span>
+            <input type="text" class="form-control" name="">
+             <div class="valid-feedback">
+            Looks good!
+            </div>
+            <div class="invalid-feedback">
+            Please choose a username.
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="mt-3">
+        <div class="row g-3">
+          <div class="col">
+            <label for="mail" class="form-label">Enter Email</label>
+            <input type="email" class="form-control mail" id="mail" name="mail" placeholder="Email" required>
+          </div>
+          <div class="col">
+            <label for="pass" class="form-label">Enter Password</label>
+            <input type="password" class="form-control pass" id="pass" name="pass" placeholder="6 digit Password" required>
+          </div>
+        </div>
+        </div>
+        </div>
+
+      <div class="mt-3 mb-4">
+           <label for="uname" class="form-label">Choose Username</label>
+        <div class="input-group"> 
+           <span class="input-group-text" id="basic-addon1">@</span>
+           <input type="text" class="form-control uname" id="uname" name="uname" placeholder="Username" required>
+        </div>
+      </div>
+
+
+        <div class="para2">
+        <h3>Job Queries:</h3>
+        <div class="mt-3">
+          <label for="f_file" class="form-label">Submit CV</label>
+          <input type="file" class="form-control f_file" id="f_file" name="f_file">
+        </div>
+        <div class="mt-3">
+          <label for="fm_file" class="form-label">Submit Passport & NID</label>
+          <input type="file" class="form-control fm_file" id="fm_file" name="fm_file" multiple>
+        </div>
+
+
+
+
+        <div class="mt-3">
+          <label for="d_form" class="form-label">Choose your city</label>
+          <input class="form-control d_form" id="d_form" list="datalistOptions"  name="d_form" placeholder="Type city" required>
+          <datalist id="datalistOptions">
+            <option value="Dhaka">
+            <option value="Chattogram">
+            <option value="Khulna">
+            <option value="Sylhet">
+            <option value="Barisal">
+            <option value="Mymensingh">  
+          </datalist>
+        </div>
+
+
+        <div class="mt-3">
+          <label for="q_form" class="form-label">Academic Qualifiaction</label>
+          <select class="form-select q_form" id="q_form" name="q_form"  required>
+            <option selected>Select qualification</option>
+            <option value="1">JSC</option>
+            <option value="2">SSC</option>
+            <option value="3">HSC</option>
+          </select>
+        </div>
+        <div class="mt-3">
+          <label for="q_form" class="form-label">Select Skills</label>
+          <select class="form-select q_form" id="q_form" name="q_form"  required multiple="">
+            <option selected>Select qualification</option>
+            <option value="1">Word</option>
+            <option value="2">Powerpoint</option>
+            <option value="3">Excel</option>
+          </select>
+        </div>
+
+
+        <div class="mt-3">
+        <label for="cr_form" class="form-label">Rate your skill out of 5</label>
+        <input type="range" class="form-range cr_form" min="0" max="5" step="1" id="cr_form">
+        </div>
+
+        <div class="mt-3">
+          <div class="row">
+          <div class="col offset-3">
+          <label class="form-label">Choose Gender</label><br>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Male
+          </label>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+            Female
+          </label>
+          </div>
+          <div class="col">
+          <label class="form-label">Choose Gender</label><br>
+          <input class="form-check-input" type="radio" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Male
+          </label>
+          <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
+          <label class="form-check-label" for="flexCheckChecked">
+            Female
+          </label>
+          </div>
+          </div>
+        </div>
+
+
+        <div class="mt-3">
+        <div class="form-switch">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+          Get notifications from us.
+          </label>
+        </div>
+        </div>
+
+        <div class="mt-3">
+          <label class="form-label">Write an Essay about you</label>
+        <div class="form-floating">
+          <textarea class="form-control res" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Essay</label>
+        </div>
+        </div>
+        </div>
+ 
+        <div class="mt-3 text-center">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+
+      </form>
+      </div>
+      </div>
+      </div>
+    </section>
+
+
+
+    <!-- js Links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- js Links-->
+  </body>
+</html>

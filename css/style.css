@@ -1,0 +1,81 @@
+body{
+	background-color: mintcream;
+}
+h1{
+	text-align: center;
+	color: red;
+	background-color: seashell;
+	border-bottom: 2px solid black;
+	border-right: 5px solid black;
+	border-left: 5px solid black;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+h3{
+	margin-left: 5px;
+}
+
+.para1{
+	background-color: #cceeff;
+	border-radius: 10px;
+}
+.para2{
+	background-color: #bed1ed;
+	border-radius: 10px;	
+}
+
+.bod{
+	width: 90%;
+	margin: 5px auto;
+	padding: 20px;
+	border: 2px solid black;
+	
+	border-radius: 10px;
+}
+
+.box{
+	height: 100px;
+	background-color: black;
+	margin-bottom: 15px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: whitesmoke;
+	position: relative;
+}
+.box p{
+	position: absolute;
+	top: 35px;
+	left: 0;
+	right: 0;
+}
+.mh-400{
+	min-height: 400px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+.floater{
+	overflow: hidden;
+}
+
+li{
+	margin-left: 20px;
+	margin-right: 0;
+}
+table{
+	margin: 40px 0;
+}
+/*form{
+	background-color: white;
+}*/
+
+textarea {
+	resize: none;
+	
+}
